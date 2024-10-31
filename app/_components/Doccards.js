@@ -2,10 +2,16 @@ import React from 'react'
 
 export default function Doccards({image, heading, paragraph}) {
   return (
-    <div className=''>
-        {image && <img src={image} alt='Doctor Visual' className='md:w-[400px] md:h-[400px] md:mt-16 mt-16cd'/>}
+    <div >
+        <div className='md:w-[600px] md:h-[600px]  mt-16'>
+        {image && <img src={image} alt='Doctor Visual' />}
+        </div>
+        <div className='md: -mt-40'>
         <h3 className='font-medium text-2xl'>{heading}</h3>
-        <p>{paragraph}</p>
+        <p className='md:pb-16'>{paragraph}</p>
+
+        </div>
+        
 
     </div>
   )

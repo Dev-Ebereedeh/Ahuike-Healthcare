@@ -15,7 +15,7 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <nav className='flex items-center justify-between px-8  py-[18px] border lg:mx-auto lg:px-24 bg-transparent '>
+    <nav className='flex items-center justify-between px-8  py-[18px] border lg:mx-auto lg:px-24 bg-transparent'>
         <div > 
         <Image src={Logo} alt='Logo' width={70} height={70}/>
         </div>

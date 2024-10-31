@@ -3,6 +3,16 @@
 @tailwind utilities;
 
 
+
+
 #hero {
   background-color: #edf2f6;
+}
+
+.tro{
+  position: relative;
+}
+
+#trouble {
+
 }

@@ -5,11 +5,12 @@ import Profile from '../../public/images/profile.png'
 import Textbox from '../_components/Textbox'
 import Container from '../_components/Container'
 import Doccards from '../_components/Doccards'
+import Testimonials from '../_components/Testimonials'
 
 
 export default function about() {
   return (
-    <section className='w-full bg-blue-400  md:bg-[#edf2f6]'>
+    <section className='w-full  bg-blue-400  md:bg-[#edf2f6]'>
       <Container>
       <div>
         <h1 className='font-bold text-blue-800 text-5xl opacity-10 text-center  md:text-left md:pl-24 md:pt-32' >About Us</h1>
@@ -34,14 +35,14 @@ export default function about() {
 
         
 
-        <section className='bg-[#ddeffd] w-full'>
-        <h1 className='font-bold text-blue-800 text-5xl opacity-10 text-center border pt-32 m-auto' >Meet Our Dedicated Doctors</h1>
+        <section className= 'md:bg-[#ddeffd] w-full'>
+        <h1 className='font-bold text-blue-800 text-5xl opacity-10 text-center border pt-32 m-auto  md:text-7xl' >Meet Our Dedicated Doctors</h1>
         <p className='text-center md:px-16 md:py-8 m-auto md:text-2xl text-xl'>Our dedicated doctors at Ahuike Hospital combine expertise with compassion to ensure your well-being. Committed to personalized care, they are here to listen and support you on your health journey. With our skilled team by your side, you can feel confident and cared for every step of the way."</p>
 
         
-        <div className='w-full flex md:flex-row flex-col justify-evenly  items-center border  '> 
-        <div>
-          <div>
+        <div> 
+        <div className='w-full flex md:flex-row flex-col justify-evenly  items-center'>
+          <div >
           <Doccards
           image= "https://res.cloudinary.com/dluyb8eyq/image/upload/v1730307536/studio-portrait-shot-of-smiling-mature-doctor-wearing-scrubs-against-white-background_vzainw.jpg"
           heading= "Dr Chiezugo O."
@@ -59,10 +60,10 @@ export default function about() {
 
         </div>
 
-        <div>
+        <div className='w-full flex md:flex-row flex-col justify-evenly  items-center'>
           <div>
           <Doccards
-          image= "https://media.gettyimages.com/id/1400102237/photo/african-american-female-doctor-with-arms-crossed-over-white-background.jpg?s=612x612&w=gi&k=20&c=ciJ4r9W_z6cYdE_RM8eu-MQUj1tVRnQYJu9cTDC5c-Y="
+          image= "https://t4.ftcdn.net/jpg/02/98/82/03/360_F_298820341_wlpH2McLxTVNer1mq9KpQXF0p28BjJ7V.webp"
           heading= "Chibunna O."
           paragraph= "Doctor"
           />
@@ -80,7 +81,7 @@ export default function about() {
 
         </div>
 
-        <div>
+        <div className='w-full flex md:flex-row flex-col justify-evenly  items-center'>
           <div >
           <Doccards
           image= "https://media.istockphoto.com/id/1199676919/photo/young-female-doctor-posing-on-white.jpg?s=612x612&w=0&k=20&c=wzsMlWz_VbWf6y6kdiLWhJngBF7fwplUIGEJZ5-oStU="
@@ -90,32 +91,39 @@ export default function about() {
           </div>
 
           <div>
-          <Doccards
-          image= "https://media.istockphoto.com/id/1481627691/photo/portrait-of-confident-mid-adult-male-nurse-against-white-background.jpg?s=612x612&w=0&k=20&c=6uvpUFhdwS0vATUQLD1j0tOGnhGNuiKNjTWUJYWwFds="
-          heading= "Dr Okoli N."
-          paragraph= "Pediatrics"
+           <Doccards
+            image= "https://media.istockphoto.com/id/1481627691/photo/portrait-of-confident-mid-adult-male-nurse-against-white-background.jpg?s=612x612&w=0&k=20&c=6uvpUFhdwS0vATUQLD1j0tOGnhGNuiKNjTWUJYWwFds="
+            heading= "Dr Okoli N."
+            paragraph= "Pediatrics"
           />
           </div>
 
-        </div>
-
-        
-
-
-
-
-        </div>
+           </div>
+          </div>
        
-          
+         </section>
 
-          
-          
 
-        </section>
+         <section>
+            <div>
+
+              <Testimonials
+              image="https://media.istockphoto.com/id/927156320/photo/she-is-a-black-beauty.jpg?s=1024x1024&w=is&k=20&c=baZIcYItxwQUWSgJWZJFbCkboAogMWAg59damoK06f8="
+              text= "I struggled with skin issues and was hesitant when a friend recommended Ahuike. But after speaking with their doctors from the comfort of my home, I'm hooked! My skin has improved, and help is always just a click away."
+              
+              />
+
+            
+
+            
+            </div>
+          </section>
+         
+         
 
         
 
-    </div>
+         </div>
 
     </Container>
 
