@@ -9,7 +9,7 @@ export default function Servebox({heading, paragraph, image}) {
         
         <div className='hidden md:block bg-red  text-center  md:w-[400px] md:h-[220px] p-8 md:p-8 mx-28 bg-white -mt-24 relative z-10 mb-8'>
             <h4 className='text-xl md:text-2xl font-semibold '>{heading}</h4>
-            <p className='font-regular text-gray-700 md:texl-xl'>{paragraph}</p>
+            <p className='font-regular text-gray-700 md:text-xl'>{paragraph}</p>
 
         </div>
        

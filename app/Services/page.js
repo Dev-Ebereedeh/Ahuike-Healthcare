@@ -71,19 +71,19 @@ export default function Services() {
         <div className='flex md:flex-row md:justify-evenly'>
 
         <Servebox
-        image="https://www.shutterstock.com/shutterstock/photos/1854649741/display_1500/stock-photo-male-black-patient-talking-on-conference-video-call-to-female-african-doctor-virtual-therapist-1854649741.jpg"
+        image="https://res.cloudinary.com/dluyb8eyq/image/upload/v1730400924/stock-photo-image-of-chemical-equations-over-caucasian-male-doctors-using-tablet-with-patient-in-background-2530846311_q9pobw.jpg"
          heading="Telemedicine"
         paragraph="Connect with healthcare providers remotely for consultations, follow-ups, and guidance—accessible, convenient, and secure care at home."
         />
           
         <Servebox
-        image="https://www.shutterstock.com/shutterstock/photos/2003191013/display_1500/stock-photo-covid-home-workout-trauma-recovery-exercises-in-rehab-black-mature-man-with-broken-leg-or-2003191013.jpg"
+        image="https://res.cloudinary.com/dluyb8eyq/image/upload/v1730400924/stock-photo-image-of-chemical-equations-over-caucasian-male-doctors-using-tablet-with-patient-in-background-2530846311_q9pobw.jpg"
         heading="Rehabilitation"
         paragraph="Connect with healthcare providers remotely for consultations, follow-ups, and guidance—accessible, convenient, and secure care at home."
         />
 
         <Servebox
-        image="https://www.shutterstock.com/shutterstock/photos/2526640841/display_1500/stock-photo-ai-in-healthcare-revolutionizing-medical-diagnostics-and-patient-care-ai-healthcare-medical-2526640841.jpg"
+        image="https://res.cloudinary.com/dluyb8eyq/image/upload/v1730400924/stock-photo-image-of-chemical-equations-over-caucasian-male-doctors-using-tablet-with-patient-in-background-2530846311_q9pobw.jpg"
         heading="Diagnostic Services"
         paragraph="Connect with healthcare providers remotely for consultations, follow-ups, and guidance—accessible, convenient, and secure care at home."
         />
@@ -99,19 +99,19 @@ export default function Services() {
       <div className='flex md:flex-row md:justify-evenly'>
 
 <Servebox
-image="https://www.shutterstock.com/shutterstock/photos/1854649741/display_1500/stock-photo-male-black-patient-talking-on-conference-video-call-to-female-african-doctor-virtual-therapist-1854649741.jpg"
+image=""
  heading="Telemedicine"
 paragraph="Connect with healthcare providers remotely for consultations, follow-ups, and guidance—accessible, convenient, and secure care at home."
 />
   
 <Servebox
-image="https://www.shutterstock.com/shutterstock/photos/2003191013/display_1500/stock-photo-covid-home-workout-trauma-recovery-exercises-in-rehab-black-mature-man-with-broken-leg-or-2003191013.jpg"
+image="https://res.cloudinary.com/dluyb8eyq/image/upload/v1730400924/stock-photo-image-of-chemical-equations-over-caucasian-male-doctors-using-tablet-with-patient-in-background-2530846311_q9pobw.jpg"
 heading="Rehabilitation"
 paragraph="Connect with healthcare providers remotely for consultations, follow-ups, and guidance—accessible, convenient, and secure care at home."
 />
 
 <Servebox
-image="https://www.shutterstock.com/shutterstock/photos/2530846311/display_1500/stock-photo-image-of-chemical-equations-over-caucasian-male-doctors-using-tablet-with-patient-in-background-2530846311.jpg"
+image="https://res.cloudinary.com/dluyb8eyq/image/upload/v1730400924/stock-photo-image-of-chemical-equations-over-caucasian-male-doctors-using-tablet-with-patient-in-background-2530846311_q9pobw.jpg"
 heading="Diagnostic Services"
 paragraph="Connect with healthcare providers remotely for consultations, follow-ups, and guidance—accessible, convenient, and secure care at home."
 />

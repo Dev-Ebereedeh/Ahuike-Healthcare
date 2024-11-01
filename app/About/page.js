@@ -10,11 +10,11 @@ import Testimonials from '../_components/Testimonials'
 
 export default function about() {
   return (
-    <section className='w-full  bg-blue-400  md:bg-[#edf2f6]'>
+    <section className='w-full  bg-gradient-to-b from-sky-500 to-white   md:bg-[#edf2f6]'>
       <Container>
       <div>
-        <h1 className='font-bold text-blue-800 text-5xl opacity-10 text-center  md:text-left md:pl-24 md:pt-32' >About Us</h1>
-        <h6 className='font-sans -mx-10 font-medium text-2xl text-center md:text-left md:pl-24' style={{ borderBottom: '2px solid #000', display: 'inline', paddingBottom: '4px', marginInlineStart: '8px' }}>What we Do</h6>
+        <h1 className='font-bold text-blue-800 text-5xl opacity-10 text-center md:text-7xl md:text-left md:pl-24 md:pt-32  pt-24' >About Us</h1>
+        <h6 className='font-sans -mx-10 font-medium text-2xl text-center md:text-left md:pl-24 pt-8' style={{ borderBottom: '2px solid #000', display: 'inline', paddingBottom: '4px', marginInlineStart: '8px' }}>What we Do</h6>
         
         <p className='hidden lg:block md:text-left p-8 w-3/6 leading-relaxed text-2xl'><span className='text-[#172aa0] text-4xl font-black '>A</span>huike  Hospital is a modern healthcare provider specializing in virtual and personalized medicine. Through telehealth services, Ahuike offers patients convenient access to medical consultations, follow-ups, and healthcare management from the comfort of their homes. The hospital’s approach emphasizes individualized treatment plans tailored to each patient’s unique health profile, enhancing the effectiveness of care.</p>
 
@@ -37,7 +37,7 @@ export default function about() {
 
         <section className= 'md:bg-[#ddeffd] w-full'>
         <h1 className='font-bold text-blue-800 text-5xl opacity-10 text-center border pt-32 m-auto  md:text-7xl' >Meet Our Dedicated Doctors</h1>
-        <p className='text-center md:px-16 md:py-8 m-auto md:text-2xl text-xl'>Our dedicated doctors at Ahuike Hospital combine expertise with compassion to ensure your well-being. Committed to personalized care, they are here to listen and support you on your health journey. With our skilled team by your side, you can feel confident and cared for every step of the way."</p>
+        <p className='text-center md:px-16 md:py-8 m-auto md:text-2xl text-xl p-8'>Our dedicated doctors at Ahuike Hospital combine expertise with compassion to ensure your well-being. Committed to personalized care, they are here to listen and support you on your health journey. With our skilled team by your side, you can feel confident and cared for every step of the way."</p>
 
         
         <div> 
@@ -52,7 +52,7 @@ export default function about() {
 
           <div>
           <Doccards
-          image= "https://media.istockphoto.com/id/635883824/photo/doctor-working-in-his-office.jpg?s=1024x1024&w=is&k=20&c=qTspdMiU1VnGJCCyz2EdP3ndPcRHBvmbRAuBluRMSCY="
+          image= "https://res.cloudinary.com/dluyb8eyq/image/upload/v1730400430/doctor-working-in-his-office_rik4qp.jpg"
           heading= "Dr Mbadiwe E."
           paragraph= "Neurology"
           />
@@ -63,7 +63,7 @@ export default function about() {
         <div className='w-full flex md:flex-row flex-col justify-evenly  items-center'>
           <div>
           <Doccards
-          image= "https://t4.ftcdn.net/jpg/02/98/82/03/360_F_298820341_wlpH2McLxTVNer1mq9KpQXF0p28BjJ7V.webp"
+          image= "https://res.cloudinary.com/dluyb8eyq/image/upload/v1730400730/360_F_298820341_wlpH2McLxTVNer1mq9KpQXF0p28BjJ7V_kbdj8r.webp"
           heading= "Chibunna O."
           paragraph= "Doctor"
           />
@@ -71,7 +71,7 @@ export default function about() {
 
           <div>
           <Doccards
-          image= "https://media.gettyimages.com/id/1916997135/photo/mature-male-healthcare-expertise-is-wearing-blue-shirt.jpg?s=612x612&w=0&k=20&c=2JPJ09SX1ucyeyY3_l6-bzXWWAZoy2w5O0ciOOBgkzI="
+          image= "https://res.cloudinary.com/dluyb8eyq/image/upload/v1730400627/mature-male-healthcare-expertise-is-wearing-blue-shirt_xfkf78.jpg"
           heading= "Dr Okoli N."
           paragraph= "Pharmacist"
           />
@@ -84,7 +84,7 @@ export default function about() {
         <div className='w-full flex md:flex-row flex-col justify-evenly  items-center'>
           <div >
           <Doccards
-          image= "https://media.istockphoto.com/id/1199676919/photo/young-female-doctor-posing-on-white.jpg?s=612x612&w=0&k=20&c=wzsMlWz_VbWf6y6kdiLWhJngBF7fwplUIGEJZ5-oStU="
+          image= "https://res.cloudinary.com/dluyb8eyq/image/upload/v1730400502/young-female-doctor-posing-on-white_fdwyli.jpg"
           heading= "Dr Chiezugo O."
           paragraph= "Doctor"
           />
@@ -92,7 +92,7 @@ export default function about() {
 
           <div>
            <Doccards
-            image= "https://media.istockphoto.com/id/1481627691/photo/portrait-of-confident-mid-adult-male-nurse-against-white-background.jpg?s=612x612&w=0&k=20&c=6uvpUFhdwS0vATUQLD1j0tOGnhGNuiKNjTWUJYWwFds="
+            image= "https://res.cloudinary.com/dluyb8eyq/image/upload/v1730400553/portrait-of-confident-mid-adult-male-nurse-against-white-background_ek10go.jpg"
             heading= "Dr Okoli N."
             paragraph= "Pediatrics"
           />
@@ -104,8 +104,8 @@ export default function about() {
          </section>
 
 
-         <section>
-            <div>
+         <section className='md:w-full md:h-screen'>
+            <div className='mt-32'>
 
               <Testimonials
               image="https://media.istockphoto.com/id/927156320/photo/she-is-a-black-beauty.jpg?s=1024x1024&w=is&k=20&c=baZIcYItxwQUWSgJWZJFbCkboAogMWAg59damoK06f8="
