@@ -14,9 +14,9 @@ export default function Services() {
 
       <h1 className='font-bold text-blue-800 text-3xl border md:text-7xl opacity-10 w-4/6 text-center  md:mx-auto md:pt-16' >Our Services</h1>
       <h6 className='font-sans font-regular text-xl p-8 text-center md:px-16 md:py-8 text-gray-700 w-[400px] md:w-full md:text-2xl'>We provide comprehensive healthcare solutions, including telemedicine consultations, remote patient monitoring, home visits, and diagnostic services. Our goal is to make quality care accessible, personalized, and convenient, empowering patients to manage their health comfortably and securely from home.</h6>
-    <div className=' w-full md:h-screen flex  md:flex-row -mt-24 flex-col items-center justify-around  '>
+    <div className='w-full h-fit md:w-full md:h-screen flex md:gap-4 md:flex-row -mt-24 flex-col md:items-center md:justify-around  '>
 
-    <div className='w-[900px] h-[500px] '>
+    <div className='md:w-[900px] md:h-[600px] w-[400px] h-[400px] mt-20'>
      <Image src={Baby} alt='babysmile'/>
 
     </div>
@@ -99,7 +99,7 @@ export default function Services() {
       <div className='flex md:flex-row md:justify-evenly'>
 
 <Servebox
-image=""
+image="https://res.cloudinary.com/dluyb8eyq/image/upload/v1730401135/healthcare-doctor-online-and-virtual-hospital-concept-diagnostics-and-online-medical_fqs34b.jpg"
  heading="Telemedicine"
 paragraph="Connect with healthcare providers remotely for consultations, follow-ups, and guidance—accessible, convenient, and secure care at home."
 />
@@ -115,31 +115,9 @@ image="https://res.cloudinary.com/dluyb8eyq/image/upload/v1730400924/stock-photo
 heading="Diagnostic Services"
 paragraph="Connect with healthcare providers remotely for consultations, follow-ups, and guidance—accessible, convenient, and secure care at home."
 />
-
-
-
-
-
-
 </div>
-
-
-
-      
-      
-
-      
-
-      </section>
-
-      
-
-
-
-
-
-
-    </Container>
+</section>
+</Container>
   
 
 

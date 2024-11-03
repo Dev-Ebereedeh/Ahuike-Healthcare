@@ -15,12 +15,12 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <nav className='flex items-center justify-between px-8  py-[18px] border lg:mx-auto lg:px-24 bg-transparent'>
+    <nav className='flex sm:w-full items-center justify-between px-8  py-[18px] border lg:mx-auto lg:px-24 bg-transparent'>
         <div > 
         <Image src={Logo} alt='Logo' width={70} height={70}/>
         </div>
         
-        <div>
+        <div className='sm:hidden md:block'>
         <div className='flex gap-16'>
         <ul className='flex gap-16'>
         <li><Link href="/">Home</Link></li>
@@ -36,10 +36,10 @@ export default function Navbar() {
 
         <div className='flex gap-8 '>
             <div className='flex gap-8'>
-                <Image src={Profile} alt='profile' width={50} height={50} className='hidden lg:block'/>
-                <span className='hidden font-medium text-stone-50 border lg:block text-center px-auto hover:bg-white hover:text-[#172aa0] py-2 w-40 bg-[#172aa0] rounded-lg '>Sign in</span>
+
+                <span className='hidden font-medium text-stone-50 border lg:block text-center px-auto hover:bg-white hover:text-[#172aa0] px-4 py-2  w-46 bg-[#172aa0] rounded-lg text-lg '>BooK An Appointment</span>
             </div>
-            <div className='lg:hidden lg:width=[50px]'> 
+            <div className='sm:block lg:hidden w-[50px]'> 
                 <Image src={Menu} alt='menu' width={50} height={50}/>
            </div>
            

@@ -6,12 +6,14 @@ import Textbox from '../_components/Textbox'
 import Container from '../_components/Container'
 import Doccards from '../_components/Doccards'
 import Testimonials from '../_components/Testimonials'
+import Hero from '../_components/Hero'
 
 
 export default function about() {
   return (
-    <section className='w-full  bg-gradient-to-b from-sky-500 to-white   md:bg-[#edf2f6]'>
+    <section className='w-full  bg-gradient-to-b from-sky-300 via-sky-200 to-white   md:bg-[#edf2f6]'>
       <Container>
+        <Hero/>
       <div>
         <h1 className='font-bold text-blue-800 text-5xl opacity-10 text-center md:text-7xl md:text-left md:pl-24 md:pt-32  pt-24' >About Us</h1>
         <h6 className='font-sans -mx-10 font-medium text-2xl text-center md:text-left md:pl-24 pt-8' style={{ borderBottom: '2px solid #000', display: 'inline', paddingBottom: '4px', marginInlineStart: '8px' }}>What we Do</h6>
@@ -105,11 +107,13 @@ export default function about() {
 
 
          <section className='md:w-full md:h-screen'>
+           
             <div className='mt-32'>
-
+            <h6 className='font-sans -mx-10 font-medium text-2xl text-center md:text-left md:pl-24 pt-8 md:text-4xl' style={{ borderBottom: '2px solid #000', display: 'inline', paddingBottom: '4px', marginInlineStart: '8px' }}>Testimonials</h6>
               <Testimonials
               image="https://media.istockphoto.com/id/927156320/photo/she-is-a-black-beauty.jpg?s=1024x1024&w=is&k=20&c=baZIcYItxwQUWSgJWZJFbCkboAogMWAg59damoK06f8="
-              text= "I struggled with skin issues and was hesitant when a friend recommended Ahuike. But after speaking with their doctors from the comfort of my home, I'm hooked! My skin has improved, and help is always just a click away."
+              heading="Chimamanda"
+              paragraph= "'I struggled with skin issues and was hesitant when a friend recommended Ahuike. But after speaking with their doctors from the comfort of my home, I'm hooked! My skin has improved, and help is always just a click away.'"
               
               />
 
