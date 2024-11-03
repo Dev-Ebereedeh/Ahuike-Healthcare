@@ -115,6 +115,7 @@ export default function about() {
               heading="Chimamanda"
               paragraph= "'I struggled with skin issues and was hesitant when a friend recommended Ahuike. But after speaking with their doctors from the comfort of my home, I'm hooked! My skin has improved, and help is always just a click away.'"
               
+              
               />
 
             
