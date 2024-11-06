@@ -25,7 +25,7 @@ export default function about() {
         <Textbox
         title="Our Story"
         paragraph="Ahuike Hospital was founded by Ebere Edeh, a pharmacist inspired by a life-saving call she made to help a mother in crisis. Realizing many lacked immediate access to medical support, Ebere created Ahuike to provide virtual, compassionate healthcare to anyone with a phone. The hospital's mission is simple: healthcare within reach, empowering every individual to receive quality care, no matter where they are"
-        image="https://steptodown.com/istock-downloader/images/steptodown.com244326.jpg"
+        image="https://media.istockphoto.com/id/1224269467/photo/mapping-out-their-corporate-strategy.jpg?s=1024x1024&w=is&k=20&c=W_6bhaQvIWg6bvgCcoVk_SRjPBk2EdD0Svfu3DVPLec="
         />                                                                                     
 
         <Textbox
