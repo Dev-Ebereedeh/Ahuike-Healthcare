@@ -17,7 +17,7 @@ export const servicesData = [
     title: "Pediatric",
     description:
       "Focusing on the unique health needs of infants, children, and teens",
-    link: "Oncology",
+    link: "pediatric",
     imageUrl: "/images/pediasure.jpg",
     heading: "Nurturing Your Child's Health",
     p1: "Our pediatric department is dedicated to providing comprehensive and compassionate care for children of all ages, from newborns to adolescents. We understand that children have unique healthcare needs, and our team of experienced pediatricians, nurses, and specialists is committed to providing personalized care that meets those needs.",
@@ -55,7 +55,7 @@ export const servicesData = [
     title: "Gynaecology",
     description:
       "Focusing on best care in Dermatology ",
-    link: "gnaecology",
+    link: "gynaecology",
     imageUrl: "/images/gynaecology.jpg",
     heading: "Comprehensive Care",
     p1: "Our Oncology Department is dedicated to providing compassionate, expert care to patients facing cancer, blending advanced technology with a patient-centered approach to offer customized treatment plans that focus on each individual’s unique needs. Our skilled team of oncologists, nurses, and support staff work collaboratively to deliver the highest quality care from early detection through every stage of treatment. We leverage the latest advancements in cancer therapies, including chemotherapy, radiation, and targeted treatments, using state-of-the-art technology designed to maximize effectiveness while minimizing side effects. Beyond medical treatment, we offer comprehensive support services to address the physical, emotional, and mental needs of patients and their families. Through counseling, nutrition, and wellness programs, we’re here to provide comfort, strength, and guidance. At our hospital, we are committed to fighting cancer with strength, compassion, and innovation, partnering with our patients to help them navigate their path to healing with confidence and hope."
@@ -66,7 +66,7 @@ export const servicesData = [
     title: "Insurance",
     description:
       "Focusing on best Payment Plan ",
-    link: "dermatology",
+    link: "Insurance",
     imageUrl: "/images/insure.jpg",
     heading: "Comprehensive  Care",
     p1: "Our Oncology Department is dedicated to providing compassionate, expert care to patients facing cancer, blending advanced technology with a patient-centered approach to offer customized treatment plans that focus on each individual’s unique needs. Our skilled team of oncologists, nurses, and support staff work collaboratively to deliver the highest quality care from early detection through every stage of treatment. We leverage the latest advancements in cancer therapies, including chemotherapy, radiation, and targeted treatments, using state-of-the-art technology designed to maximize effectiveness while minimizing side effects. Beyond medical treatment, we offer comprehensive support services to address the physical, emotional, and mental needs of patients and their families. Through counseling, nutrition, and wellness programs, we’re here to provide comfort, strength, and guidance. At our hospital, we are committed to fighting cancer with strength, compassion, and innovation, partnering with our patients to help them navigate their path to healing with confidence and hope."
