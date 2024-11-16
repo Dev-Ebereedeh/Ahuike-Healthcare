@@ -6,6 +6,9 @@ import Baby from "../../public/images/baby.jpg";
 import Servebox from "../_components/Servebox";
 import Container from "../_components/Container";
 import ServicesList from "../_components/ServicesList";
+import { servicesData } from "../_components/Array";
+
+
 export default function Services() {
   return (
     <>

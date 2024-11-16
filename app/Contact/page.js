@@ -27,12 +27,14 @@ const ContactPage = () => {
           <div className="flex-1">
             <h2 className="text-2xl md:text-3xl font-semibold mb-8 md:mt-16 ">Appointment Scheduling</h2>
             <p className="md:text-2xl">
-              For appointments, call us at{" "}
-              <a href="tel:1234567890" className="text-blue-500 underline">
-                123-456-7890
-              </a>{" "}
-              or{" "}
-              <a href="/book-appointment" className="text-blue-500 underline">
+              For appointments, call us at
+              <a href="tel: +2348060307470" className="text-blue-500 underline">
+              08060307470 
+              </a>
+              
+              or
+
+              <a href="/contact" className="text-blue-500 underline">
                 book online
               </a>
               .
@@ -67,26 +69,26 @@ const ContactPage = () => {
         <div className="mb-12 flex justify-center">
           <div className="w-full md:w-2/3">
             <h2 className="text-2xl md:text-3xl font-semibold mb-4 md:mt-24  text-blue-800 ">Get in Touch</h2>
-            <form className="space-y-4">
+            <form action="https://formsubmit.co/eberechukwugoodnesspharm@gmail.com" method="POST" className="space-y-4">
               <div>
                 <label className="block mb-1 font-medium md:text-2xl md:mt-12">Name</label>
-                <input type="text" className="w-full border p-2 rounded md:h-14 " required />
+                <input type="text" name="email" className="w-full border p-2 rounded md:h-14 " required />
               </div>
               <div>
                 <label className="block mb-1 font-medium md:text-2xl md:mt-12">Location</label>
-                <input type="text" className="w-full border p-2 rounded md:h-14 " required />
+                <input type="text" name="email" className="w-full border p-2 rounded md:h-14 " required />
               </div>
               <div>
                 <label className="block mb-1 font-medium md:text-2xl md:mt-12">Phone Number</label>
-                <input type="tel" className="w-full border p-2 rounded md:h-14 " required />
+                <input type="tel" name="email" className="w-full border p-2 rounded md:h-14 " required />
               </div>
               <div>
                 <label className="block mb-1 font-medium md:text-2xl md:mt-12">Email</label>
-                <input type="email" className="w-full border p-2 md:h-14 rounded " required />
+                <input type="email" name="email" className="w-full border p-2 md:h-14 rounded " required />
               </div>
               <div>
                 <label className="block mb-1 font-medium md:text-2xl md:mt-12">Message</label>
-                <textarea className="w-full border p-2 rounded h-24 md:h-200 " required></textarea>
+                <textarea name="email" type="email" className="w-full border p-2 rounded h-24 md:h-200 " required></textarea>
               </div>
               <button type="submit" className="w-full md:4/6 bg-blue-800 text-white py-2 rounded font-semibold md:text-2xl">
                 Submit
